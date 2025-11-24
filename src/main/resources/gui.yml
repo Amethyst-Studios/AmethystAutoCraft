@@ -1,0 +1,49 @@
+# GUI Configuration
+# Everything in the GUI is customizable here
+
+gui:
+  title: "AutoCraft Settings"
+  size: 27
+
+  slots:
+    toggle: 11
+    direction: 13
+    info: 15
+
+  items:
+    toggle_on:
+      material: "LIME_DYE"
+      name: "&aAutoCraft Enabled"
+      lore:
+        - "&7Click to toggle"
+        - ""
+        - "&a✔ Active"
+    toggle_off:
+      material: "GRAY_DYE"
+      name: "&cAutoCraft Disabled"
+      lore:
+        - "&7Click to toggle"
+        - ""
+        - "&c✖ Inactive"
+    direction:
+      material: "IRON_INGOT"
+      name: "&6Crafting Direction"
+      lore:
+        - "&7Current: &bForward"
+        - ""
+        - "&7Forward: &fMaterial → Product"
+        - "&7Reverse: &fProduct → Material"
+        - ""
+        - "&7Click to toggle"
+    info:
+      material: "BOOK"
+      name: "&eInformation"
+      lore:
+        - "&7AutoCraft Plugin"
+        - "&7Automatically converts materials"
+        - "&7based on your settings."
+        - ""
+        - "&6Permissions:"
+        - "&f- amethyst.autocraft.on"
+        - "&f- amethyst.autocraft.off"
+        - "&f- amethyst.autocraft.gui"
