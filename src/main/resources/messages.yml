@@ -1,0 +1,30 @@
+# Plugin Messages
+# Customize all messages here
+
+autocraft:
+  enabled: "&aAutoCraft has been enabled!"
+  disabled: "&cAutoCraft has been disabled!"
+  direction_forward: "&6Crafting direction set to: &bForward"
+  direction_reverse: "&6Crafting direction set to: &eReverse"
+  status: |
+    &6AutoCraft Status:
+    &7Enabled: {enabled}
+    &7Permission: {permission}
+    &7Direction: {direction}
+    &7Status: {active}
+
+errors:
+  no_permission: "&cYou don't have permission for this!"
+  player_only: "&cOnly players can use this command!"
+  invalid_material: "&cInvalid material specified!"
+  no_autocraft_permission: "&cYou don't have permission to use AutoCraft!"
+
+commands:
+  help: |
+    &6AutoCraft Commands:
+    &f/autocraft on &7- Enable AutoCraft
+    &f/autocraft off &7- Disable AutoCraft
+    &f/autocraft gui &7- Open GUI
+    &f/autocraft status &7- Check status
+    &f/autocraft reload &7- Reload configuration
+  reloaded: "&aConfiguration reloaded!"
