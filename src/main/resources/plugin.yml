@@ -1,0 +1,40 @@
+name: AmethystAutoCraft
+version: 1.0.1
+main: org.roland0719.AmethystAutoCraft.AmethystAutoCraft
+api-version: 1.18
+author: roland0719
+description: Automatic crafting conversion plugin
+
+commands:
+  autocraft:
+    description: Main AutoCraft command
+    usage: /<command> [on|off|gui|reload|status]
+  aautocraft:
+    description: AutoCraft alias command
+    usage: /<command> [on|off|gui|reload|status]
+
+permissions:
+  amethyst.autocraft.use:
+    description: Use AutoCraft functionality
+    default: op
+  amethyst.autocraft.on:
+    description: Enable AutoCraft
+    default: op
+  amethyst.autocraft.off:
+    description: Disable AutoCraft
+    default: op
+  amethyst.autocraft.gui:
+    description: Open AutoCraft GUI
+    default: op
+  amethyst.autocraft.reload:
+    description: Reload plugin configuration
+    default: op
+  amethyst.autocraft.*:
+    description: All AutoCraft permissions
+    default: op
+    children:
+      amethyst.autocraft.use: true
+      amethyst.autocraft.on: true
+      amethyst.autocraft.off: true
+      amethyst.autocraft.gui: true
+      amethyst.autocraft.reload: true
