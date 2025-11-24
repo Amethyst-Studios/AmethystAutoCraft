@@ -1,0 +1,30 @@
+# AutoCraft Plugin Configuration
+# You can add unlimited recipes here
+
+settings:
+  # Should AutoCraft automatically enable when player joins?
+  auto_enable_on_join: false
+
+  # Check permission for every autocraft operation?
+  check_permission_always: true
+
+recipes:
+  iron_to_gold:
+    from: IRON_INGOT
+    to: GOLD_INGOT
+    rate: 4
+
+  gold_to_block:
+    from: GOLD_INGOT
+    to: GOLD_BLOCK
+    rate: 9
+
+  diamond_to_emerald:
+    from: DIAMOND
+    to: EMERALD
+    rate: 2
+
+  cobblestone_to_stone:
+    from: COBBLESTONE
+    to: STONE
+    rate: 1
