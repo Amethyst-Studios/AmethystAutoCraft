@@ -8,10 +8,16 @@ description: Automatic crafting conversion plugin
 commands:
   autocraft:
     description: Main AutoCraft command
-    usage: /<command> [on|off|gui|reload|status]
+    usage: |
+      /<command> on [forward|reverse] - Enable with direction
+      /<command> off - Disable
+      /<command> gui - Open GUI
+      /<command> direction <forward|reverse> - Change direction
+      /<command> status - Check status
+      /<command> reload - Reload config
   aautocraft:
     description: AutoCraft alias command
-    usage: /<command> [on|off|gui|reload|status]
+    usage: Same as autocraft
 
 permissions:
   amethyst.autocraft.use:
